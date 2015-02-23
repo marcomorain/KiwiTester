@@ -1,4 +1,0 @@
-machine:
-  environment:
-    CLICOLOR: "1"
-    LANG: "en_US.UTF-8"
