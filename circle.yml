@@ -1,8 +1,3 @@
 general:
   artifacts:
-    - junk
-test:
-  pre:
-    - mkdir junk
-    - for x in `seq 1 33`; do dd if=/dev/zero of=junk/file$x.dat bs=1k seek=4 count=1; done
-
+    - Pods
