@@ -1,3 +1,6 @@
 dependencies:
+  pre:
+    - sudo gem update cocoapods
+    - pod setup
   cache_directories:
     - Pods
