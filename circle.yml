@@ -1,5 +1,9 @@
+machine:
+  environment:
+    LANG: en_US.UTF-8
 dependencies:
   pre:
+    - 'echo "gem: --no-ri --no-rdoc" >> ~/.gemrc'
     - sudo gem update cocoapods
     - pod setup
   cache_directories:
