@@ -6,4 +6,5 @@ platform :ios, '7.0'
 
 target :KiwiTesterTests, :exclusive => true do
    pod 'Kiwi', '~> 2.3'
+   pod 'AFNetworking', '~> 2.5'
 end
