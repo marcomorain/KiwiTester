@@ -4,7 +4,6 @@ machine:
 dependencies:
   pre:
     - 'echo "gem: --no-ri --no-rdoc" >> ~/.gemrc'
-    - ls /Applications/ | grep Xcode-
     - xcode-select -p
     - sudo gem install cocoapods --pre
     - pod setup
