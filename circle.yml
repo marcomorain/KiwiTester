@@ -2,10 +2,5 @@ machine:
   environment:
     LANG: en_US.UTF-8
 dependencies:
-  pre:
-    - 'echo "gem: --no-ri --no-rdoc" >> ~/.gemrc'
-    - xcode-select -p
-    - sudo gem install cocoapods --pre
-    - pod setup
   cache_directories:
     - Pods
