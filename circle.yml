@@ -1,6 +1,8 @@
-test:
-  override:
-    - echo "Success":
-        parallel: true
-        files:
-          - "**/.foo"
+machine:
+  xcode:
+    version: "6.3.7"
+  environment:
+    LANG: en_US.UTF-8
+dependencies:
+  cache_directories:
+    - Pods
