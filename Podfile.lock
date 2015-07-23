@@ -1,52 +1,52 @@
 PODS:
-  - AFNetworking (2.5.2):
-    - AFNetworking/NSURLConnection (= 2.5.2)
-    - AFNetworking/NSURLSession (= 2.5.2)
-    - AFNetworking/Reachability (= 2.5.2)
-    - AFNetworking/Security (= 2.5.2)
-    - AFNetworking/Serialization (= 2.5.2)
-    - AFNetworking/UIKit (= 2.5.2)
-  - AFNetworking/NSURLConnection (2.5.2):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.2):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.2)
-  - AFNetworking/Security (2.5.2)
-  - AFNetworking/Serialization (2.5.2)
-  - AFNetworking/UIKit (2.5.2):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - FlurrySDK (6.2.0):
-    - FlurrySDK/FlurrySDK (= 6.2.0)
-  - FlurrySDK/FlurrySDK (6.2.0)
-  - HockeySDK (3.6.2)
-  - ISO8601 (0.1.3)
+  - FlurrySDK (6.6.0):
+    - FlurrySDK/FlurrySDK (= 6.6.0)
+  - FlurrySDK/FlurrySDK (6.6.0)
+  - HockeySDK (3.7.1):
+    - HockeySDK/AllFeaturesLib (= 3.7.1)
+  - HockeySDK/AllFeaturesLib (3.7.1)
+  - ISO8601 (0.3.0)
   - Kiwi (2.3.1)
   - libPusher (1.4):
     - SocketRocket
-  - MagicalRecord (2.2):
-    - MagicalRecord/Core (= 2.2)
-  - MagicalRecord/Core (2.2)
+  - MagicalRecord (2.3.0)
   - MBProgressHUD (0.9.1)
   - MBXMapKit (0.7.0)
-  - PonyDebugger (0.4.3):
+  - PonyDebugger (0.4.5):
     - SocketRocket
   - Reachability (3.2)
-  - ReactiveCocoa (2.4.7):
-    - ReactiveCocoa/UI (= 2.4.7)
-  - ReactiveCocoa/Core (2.4.7):
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
     - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.4.7)
-  - ReactiveCocoa/UI (2.4.7):
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SDWebImage (3.7.2):
-    - SDWebImage/Core (= 3.7.2)
-  - SDWebImage/Core (3.7.2)
-  - SocketRocket (0.2.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SocketRocket (0.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -65,19 +65,19 @@ DEPENDENCIES:
   - SocketRocket
 
 SPEC CHECKSUMS:
-  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  FlurrySDK: 6d8cc2f898589214ed72e481cf59cffa55b88fe0
-  HockeySDK: 51ade1aff04463137e852797d2eb4dfb2511d6a9
-  ISO8601: 8805b6cd6b2d0f7e594f7c5b50e8b00b51695ac0
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  FlurrySDK: 8478625434c06b323338f776758162756d92c3ed
+  HockeySDK: 77bb90b6484a3b742ccf32bcae247c0a0051a962
+  ISO8601: 8d8a22d5edf0554a1cf75bac028c76c1dc0ffaef
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
   libPusher: aae029e98930da979e3ec44f632e895fe84d973b
-  MagicalRecord: f8a56bb87ab6552f20c4bb8681a1958a197ea3cd
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MBXMapKit: 1fd570fd955fb4475b7303360b3b96afb1ff9634
-  PonyDebugger: 52f96f501df018dc2b7153fa18464b82553e700c
+  PonyDebugger: 1c60f7c876bdb6a8b6bf0f0269087f8a234fafa7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
-  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  SocketRocket: 54a4ac2f354c4e8c51ef5dcd4a13bc556d4f2b7c
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SocketRocket: 01443933b7bc362621325f4607b80b4286a99707
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.38.0

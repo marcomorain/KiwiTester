@@ -3,6 +3,3 @@ machine:
     America/Los_Angeles
   environment:
     LANG: en_US.UTF-8
-dependencies:
-  cache_directories:
-    - Pods
