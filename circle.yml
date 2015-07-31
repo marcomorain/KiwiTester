@@ -3,3 +3,7 @@ machine:
     America/Los_Angeles
   environment:
     LANG: en_US.UTF-8
+dependencies:
+  override:
+    - sudo gem install cocoapods -v 0.35.0
+    - pod _0.35.0_ install --no-repo-update || ( pod _0.35.0_ setup && pod _0.35.0_ install )
