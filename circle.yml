@@ -3,3 +3,9 @@ machine:
     America/Los_Angeles
   environment:
     LANG: en_US.UTF-8
+checkout:
+  post:
+    - git show-ref -s HEAD > .git/shallow
+    - git reflog expire --expire=0
+    - git prune
+    - git prune-packed
