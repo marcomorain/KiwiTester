@@ -8,4 +8,9 @@ machine:
   environment:
     LANG: en_US.UTF-8
     FOO: bar
+    XCODE_SCHEME: "scheme"
+    XCODE_WORKSPACE: "workspace"
+test:
+  override:
+    - uname -a
 
