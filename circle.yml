@@ -1,8 +1,8 @@
 machine:
   xcode:
-    version:
-      7.1
-  timezone:
-    America/Los_Angeles
+    version: 7.1
+  timezone: America/Los_Angeles
   environment:
     LANG: en_US.UTF-8
+    XCODE_WORKSPACE: KiwiTester.xcworkspace
+    XCODE_SCHEME: Kiwi Tester
