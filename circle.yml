@@ -1,4 +1,7 @@
 machine:
+  xcode:
+    version:
+      7.1
   timezone:
     America/Los_Angeles
   environment:
