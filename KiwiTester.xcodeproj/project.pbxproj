@@ -205,6 +205,7 @@
 				8005F21418CAD9AB001059D7 /* Frameworks */,
 				8005F21518CAD9AB001059D7 /* Resources */,
 				2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */,
+				18A2F9A0344C8F08CDB481B1 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,6 +274,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18A2F9A0344C8F08CDB481B1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTesterTests/Pods-KiwiTesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
