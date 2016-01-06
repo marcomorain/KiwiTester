@@ -1,16 +1,21 @@
-general:
-  branches:
-    only:
-      - horse
 machine:
   timezone:
     America/Los_Angeles
   environment:
     LANG: en_US.UTF-8
-    FOO: bar
-    XCODE_SCHEME: "scheme"
-    XCODE_WORKSPACE: "workspace"
+  xcode:
+    version: 7.2
 test:
-  override:
+  pre:
     - uname -a
+    - sw_vers -productVersion
+    - system_profiler SPSoftwareDataType
+    - xcodebuild -version
+    - xctool -version
+    - pod --version
+    - xcpretty --version
+    - fastlane --version
+    - carthage version
+    - ipa --version
+
 
