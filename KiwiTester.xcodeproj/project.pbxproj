@@ -205,7 +205,7 @@
 				8005F21418CAD9AB001059D7 /* Frameworks */,
 				8005F21518CAD9AB001059D7 /* Resources */,
 				2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */,
-				7F3664490609ADF1D807E054 /* Embed Pods Frameworks */,
+				0DBBDDBC971C71E1B9B34485 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +274,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0DBBDDBC971C71E1B9B34485 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTesterTests/Pods-KiwiTesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,21 +302,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTesterTests/Pods-KiwiTesterTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F3664490609ADF1D807E054 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiTesterTests/Pods-KiwiTesterTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F72B5A897ACA4285806E406A /* Check Pods Manifest.lock */ = {
